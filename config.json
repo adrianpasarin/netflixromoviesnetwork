@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Adrian Pasarin \u0026 Daniela Vulcu"
+  },
+  "text": {
+    "more": "Rețeaua analizează legăturile dintre actorii si filmele de pe Netflix.\nCu ajutorul ei s-a identificat actorul care a jucat în cele mai multe filme, care sunt cele mai lungi filme, care sunt cele mai premiate si nominalizate filme și numarul de filme pe an.\nTotodată s-a identficat și care sunt cele mai întâlnite genuri, cele mai comune premii și nominalizări și numărul de actori care joacă în acestea comparativ cu numarul de actrițe.",
+    "intro": "Această rețea este alcătuită din totalitatea filmelor românești de pe platforma de streaming Netflix, cât și actorii ce au jucat în ele (cei din listele de Cast de pe platformă).",
+    "title": "Netflix Romanian Movies"
+  },
+  "legend": {
+    "edgeLabel": "Legături",
+    "colorLabel": "Roz - actori, Verde - Filme",
+    "nodeLabel": "Actori \u0026 Filme"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
